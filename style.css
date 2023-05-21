@@ -1,0 +1,93 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0078D7;
+    font-family: "Segoe UI", sans-serif;
+  }
+
+  img{
+    float: left;
+  }
+
+  
+  
+  .container {
+    width: 800px;
+    margin: 50px auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+  }
+  
+  .header {
+    background-color: #0078D7;
+    height: 35px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .title-bar {
+    background-color: #0078D7;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    flex-grow: 1;
+  }
+  
+  .window-controls {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .window-button {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+  }
+  
+  .start-menu {
+    width: 40px;
+    height: 100%;
+    background-color: #0078D7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .start-menu-button {
+    width: 8px;
+    height: 8px;
+    border-top: 2px solid #FFFFFF;
+    border-left: 2px solid #FFFFFF;
+    transform: rotate(-45deg);
+  }
+  
+  .content {
+    padding: 20px;
+  }
+  
+  h1, h2, h3 {
+    color: black;
+  }
+  
+  p, ul {
+    color: black;
+    margin-bottom: 10px;
+  }
+  
+  .section {
+    margin-bottom: 30px;
+  }
+  
+  ul {
+    padding-left: 20px;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+  
